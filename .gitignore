@@ -1,3 +1,5 @@
+.zen/
+mlruns/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -109,6 +111,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+zenml-demo/
 
 # Spyder project settings
 .spyderproject
