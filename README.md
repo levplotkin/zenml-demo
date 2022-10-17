@@ -41,6 +41,6 @@ zenml stack set zenml_demo_stack
 python run.py
 
 zenml down
-post_run  pkill -n -f zenml.services.local.local_daemon_entrypoint
+pkill -n -f zenml.services.local.local_daemon_entrypoint
 
 ```
